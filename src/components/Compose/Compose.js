@@ -50,7 +50,7 @@ export default class Compose extends Component {
         </div>
 
         <div className="Compose__bottom">
-          <button onClick={this.createPostFn}>Compose</button>
+          <button onClick={this.createPost}>Compose</button>
         </div>
       </section>
     )
